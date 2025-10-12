@@ -55,6 +55,8 @@
         #include <offsets/ps/libkernel/ps5/6.50.hpp>
     #elif defined(FIRMWARE) && FIRMWARE == 761
         #include <offsets/ps/libkernel/ps5/7.61.hpp>
+    #elif defined(FIRMWARE) && FIRMWARE == 1001
+        #include <offsets/ps/libkernel/ps5/10.01.hpp>
     #endif
 
     #ifdef LIB_KERNEL_SYS_RET_ERROR
